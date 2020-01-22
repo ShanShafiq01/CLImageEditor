@@ -123,6 +123,7 @@ static const CGFloat kMenuBarHeight = 80.0f;
             }
         }
         _navigationBar = navigationBar;
+        _navigationBar.barTintColor = [CLImageEditorTheme theme].toolbarColor ;
     }
     
     if(self.navigationController!=nil){
